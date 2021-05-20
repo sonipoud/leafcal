@@ -15,7 +15,25 @@ $("#currentDay").html(convertedDate);
 //     {time: 6, input: ""}
 // ]
 
-$("#description").click(function(){
-    var saveButton = $("#description");
-    console.log(saveButton);
-})
+$(document).ready(function(){
+    $(".saveBtn").on("click", function(){
+        var text = $(this).siblings(".description").val();
+    })
+});
+
+function timeTracker(){
+    var timeNow = moment().hour();
+
+    $(".time-block").each(function(){
+        
+    })
+}
+
+// var loadTexts = function(){
+//     texts = JSON.parse(localStorage.getItem("texts"));
+// };
+
+// var saveTexts = function(){
+//     localStorage.setItem("texts", JSON.stringify(tasks));
+// };
+
