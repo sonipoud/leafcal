@@ -74,6 +74,29 @@ textarea{
   transition: all .3s ease-in-out;
 }
 
+@media (max-width: 780px) and (max-width:575px) {
+  .row {
+    height: auto;
+    margin-top: 20px;
+  }
+
+  .hour {
+    padding-right: 17%;
+  }
+
+  .saveBtn {
+    border: 0;
+    height: 50px;
+    border-radius: 0.25rem;
+  }
+
+  textarea {
+    min-height: 85px;
+    border: 0;
+  }
+};
+  
+
 
 
 
