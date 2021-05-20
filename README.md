@@ -8,6 +8,7 @@ This website is about a daily planner to create a schedule with time blocks for 
 ## Built With
 * HTML
 * CSS variables
+* MediaQueries
 * Java Script
 * local storage
 * bootstrap
@@ -20,12 +21,11 @@ This website is about a daily planner to create a schedule with time blocks for 
 ![Screenshot 1](./assets/images/Screenshot1.png)
 ![Screenshot 2](./assets/images/Screenshot2.png)
 ![Screenshot 3](./assets/images/Screenshot3.png)
-![Screenshot 4](./assets/images/Screenshot4.png)
 
 ---
 
 ## Website
-[Calendar]()
+[Calendar](https://sonipoud.github.io/leafcal/)
 
 ---
 
